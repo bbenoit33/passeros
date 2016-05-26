@@ -1,0 +1,172 @@
+/*
+    Passero's Site v.1
+    Brandon Benoit
+
+*/
+
+/*Fonts*/
+@font-face {
+  font-family: 'microbrew';
+  src: url('../fonts/Microbrew-Three.otf'); /* IE9 Compat Modes */
+  src: url('../fonts/Microbrew-Three.otf') format('opentype'), /* IE6-IE8 */
+}
+
+@font-face {
+  font-family: 'comic';
+  src: url('../fonts/ComicNeue-Regular.ttf'); /* IE9 Compat Modes */
+  src: url('../fonts/ComicNeue-Regular.ttf') format('TrueType'), /* IE6-IE8 */
+}
+
+h1 {
+    font-family: 'microbrew';
+    color: #fff;
+    font-size: 7em;
+}
+
+h2 {
+    color: #fff;
+    font-size: 1.3em;
+
+}
+
+h2 span {
+    color: #fff;
+    font-family: 'microbrew';
+    font-size: 3em;
+}
+
+p, a {
+    font-family: 'comic';
+    color: #fff;
+    font-size: 1.3em;
+}
+
+/*****Main CSS*****/
+
+.row {
+max-width: 100%;
+padding: 0;
+}
+
+.row .row {
+    padding: 0;
+}
+
+body {
+    background-color: #f9b747;
+    overflow-x: hidden;
+}
+
+/*****Support Classes*****/
+
+/*Ease-in Transitions*/
+.ease {
+-webkit-transition: all .5s ease-in;
+-moz-transition: all .5s ease-in;
+-ms-transition: all .5s ease-in;
+-o-transition: all .5s ease-in;
+transition: all .5s ease-in;
+}
+
+/*****Header Section*****/
+
+/*.header_row {
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/bg1.png);
+    background-size: cover;
+}*/
+
+.masthead {
+    position: absolute;
+    width: 100%;
+    z-index: 12;
+}
+
+.main_header {
+    height: 700px;
+}
+
+.orbit-container
+{
+  height: 700px;
+  width: auto;
+}
+    header p{
+        color: #fff;
+    }
+#logo {
+    background: url(../img/logo.png);
+    width: 300px;
+    height: 153px;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    float: left;
+    z-index: 10;
+}
+
+.menu {
+    position: relative;
+    right: 20px;
+}
+
+.menu a {
+    color: #fff;
+}
+
+#tag {
+    margin-top: 100px;
+}
+
+/*****Content Section*****/
+
+.content_row {
+    background-color: #69160e;
+    background-image: url('../img/badgebg.png');
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: right center;
+    padding: 40px 0;
+}
+
+.intro_copy {
+    padding: 40px;
+    border: 1px solid #f9b747;
+}
+
+/*Roasts Section*/
+
+.roasts {
+    padding: 40px;
+}
+
+.roasts img {
+    width: 50%;
+    height: auto;
+}
+
+.r1 {
+    background-image: url('../img/backgrounds/honduran.jpg');
+}
+
+.r2 {
+    background-image: url('../img/backgrounds/sumatra.jpg');
+}
+
+.r3 {
+    background-image: url('../img/backgrounds/tanzania.jpg');
+}
+
+.background_sizing {
+    background-size: 100% auto;
+    opacity: 0.8;
+}
+
+.background_sizing:hover {
+    opacity: 1.0;
+}
+
+.roastContent {
+
+}
