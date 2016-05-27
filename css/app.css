@@ -23,7 +23,7 @@
   src: url('../fonts/ComicNeue-Bold.ttf') format('TrueType'), /* IE6-IE8 */
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
     h1 {
         font-size: 4em;
     }
