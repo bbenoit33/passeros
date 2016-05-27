@@ -23,12 +23,6 @@
   src: url('../fonts/ComicNeue-Bold.ttf') format('TrueType'), /* IE6-IE8 */
 }
 
-@media screen and (max-width: 480px) {
-    h1 {
-        font-size: 4em;
-    }
-}
-
 h1 {
     font-family: 'microbrew';
     color: #fff;
@@ -191,4 +185,12 @@ transition: all .5s ease-in;
 
 .roastContent {
 
+}
+
+
+/*Media Queries*/
+@media screen and (max-device-width: 480px) {
+    h1 {
+        font-size: 4em;
+    }
 }
