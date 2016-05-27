@@ -17,6 +17,18 @@
   src: url('../fonts/ComicNeue-Regular.ttf') format('TrueType'), /* IE6-IE8 */
 }
 
+@font-face {
+  font-family: 'comicBold';
+  src: url('../fonts/ComicNeue-Bold.ttf'); /* IE9 Compat Modes */
+  src: url('../fonts/ComicNeue-Bold.ttf') format('TrueType'), /* IE6-IE8 */
+}
+
+@media screen and (min-width: 480px) {
+    h1 {
+        font-size: 4em;
+    }
+}
+
 h1 {
     font-family: 'microbrew';
     color: #fff;
