@@ -42,6 +42,12 @@ h2 span {
 }
 
 p, a {
+    font-family: 'comic';
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.menu a {
     font-family: 'comicBold';
     color: #fff;
     font-size: 1.3em;
