@@ -15,15 +15,19 @@
           <header>
 <div class="masthead">
   <div class="row collapse">
-      <div class="" id="logo">
-
-      </div>
+    <div class="small-12 collumns topMenu">
       <ul class="menu align-right">
           <li><a href="#">The Coffee</a></li>
           <li><a href="#">Wholesale</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Home</a></li>
       </ul>
+    </div>
+      <div class="row collapse">
+          <div class="small-centered" id="logo">
+
+          </div>
+      </div>
   </div>
       <div class="row" id="tag">
           <div class="large-10 large-centered columns">
@@ -33,21 +37,28 @@
       </div>
 </div>
 
-              <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
-                  <ul class="orbit-container" data-orbit data-options="animation:fade;">
-                      <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
-                      <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+              <div class="orbit" role="region" aria-label="Passero's Coffee Roasters" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+                  <ul class="orbit-container">
                       <li class="is-active orbit-slide">
-                          <img class="orbit-image" src="img/bg1.png" alt="Beans">
-                          <figcaption class="orbit-caption">Beans, The Loom</figcaption>
+                          <div class="row mainSlide collapse" style="background-image: url(img/bg1.png)">
+                              <div class="small-12 columns">
+
+                              </div>
+                          </div>
                       </li>
                       <li class="orbit-slide">
-                          <img class="orbit-image" src="img/franklin.jpg" alt="Franklin Shop">
-                          <figcaption class="orbit-caption">Franklin Shop</figcaption>
+                          <div class="row mainSlide collapse" style="background-image: url(img/franklin.jpg)">
+                              <div class="small-12 columns">
+
+                              </div>
+                          </div>
                       </li>
                       <li class="orbit-slide">
-                          <img class="orbit-image" src="img/loom.jpg" alt="The Loom">
-                          <figcaption class="orbit-caption">The Loom</figcaption>
+                          <div class="row mainSlide collapse" style="background-image: url(img/loom.jpg)">
+                              <div class="small-12 columns">
+
+                              </div>
+                          </div>
                       </li>
                   </ul>
               </div>
@@ -90,13 +101,21 @@
               </div>
           </div>
       </div>
-      <script>
-
-
-      </script>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+      <script>
+      $(document).foundation({
+      orbit: {
+      animation: 'fade',
+      timer_speed: 8000,
+      pause_on_hover: true,
+      animation_speed: 1000,
+      navigation_arrows: false,
+      bullets: false
+      }
+      });
+      </script>
   </body>
 </html>

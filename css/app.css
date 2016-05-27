@@ -83,14 +83,20 @@ transition: all .5s ease-in;
     z-index: 12;
 }
 
-.main_header {
+/*.main_header {
     height: 700px;
-}
+}*/
 
 .orbit-container
 {
-  height: 700px;
+  /*height: 40%;*/
   width: auto;
+}
+
+.mainSlide {
+    height: 700px;
+    width: 100%;
+    background-size: cover;
 }
     header p{
         color: #fff;
@@ -104,6 +110,10 @@ transition: all .5s ease-in;
     left: 40px;
     float: left;
     z-index: 10;
+}
+
+.topMenu {
+    background-color: rgba(249, 183, 71, 0.9)
 }
 
 .menu {
@@ -132,7 +142,7 @@ transition: all .5s ease-in;
 
 .intro_copy {
     padding: 40px;
-    border: 1px solid #f9b747;
+    border: 6px double #f9b747;
 }
 
 /*Roasts Section*/
